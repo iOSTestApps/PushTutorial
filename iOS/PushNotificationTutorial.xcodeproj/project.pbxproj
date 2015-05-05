@@ -192,6 +192,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					D4F419CF14D90FFB00D02120 = {
+						DevelopmentTeam = 8G9SJKMB6B;
+					};
+				};
 			};
 			buildConfigurationList = D4F419CA14D90FFB00D02120 /* Build configuration list for PBXProject "PushNotificationTutorial" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -310,8 +315,8 @@
 		D4F419EF14D90FFB00D02120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doe Pics Hit Inc";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -322,8 +327,8 @@
 				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ee8284d9-13ae-452d-9a37-9dce2077f17a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ee8284d9-13ae-452d-9a37-9dce2077f17a";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -331,8 +336,8 @@
 		D4F419F014D90FFB00D02120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Doe Pics Hit Inc";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -343,8 +348,8 @@
 				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "ee8284d9-13ae-452d-9a37-9dce2077f17a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ee8284d9-13ae-452d-9a37-9dce2077f17a";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
